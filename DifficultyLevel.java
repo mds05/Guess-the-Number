@@ -1,9 +1,9 @@
 import java.util.Random;
 public class DifficultyLevel {
     public void diffNames(){
-        System.out.println("A for Easy");
-        System.out.println("B for Medium");
-        System.out.println("C for Hard");
+        System.out.println("A for Easy(0 to 10)");
+        System.out.println("B for Medium(0 to 50)");
+        System.out.println("C for Hard(0 to 100)");
     }
     public int rand(char c){
         Random ran=new Random();
